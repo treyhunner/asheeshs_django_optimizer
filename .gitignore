@@ -1,2 +1,7 @@
 *~
 *.pyc
+
+
+# python sdist generated files
+dist/
+*.egg-info/
