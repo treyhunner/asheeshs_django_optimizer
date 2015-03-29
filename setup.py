@@ -23,5 +23,5 @@ setup(
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
     ],
-    packages='asheeshs_django_optimizer',
+    packages=['asheeshs_django_optimizer'],
 )
