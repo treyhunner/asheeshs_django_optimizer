@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 
 # Get longdesc from file.
-with open(os.path.join(here, 'DESCRIPTION.rst'),
+with open(os.path.join(here, 'README.rst'),
           encoding='utf-8') as f:
     long_description = f.read()
 
