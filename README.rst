@@ -41,4 +41,4 @@ Also about this package
 Version history:
 
 * 1.0: Does nothing, successfully.
-* 1.1: Implement cache warming functionality.
+* 1.2: Actually implement cache warming functionality.
