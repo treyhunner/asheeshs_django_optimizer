@@ -42,3 +42,4 @@ Version history:
 
 * 1.0: Does nothing, successfully.
 * 1.2: Actually implement cache warming functionality.
+* 2.0: Total rewrite!!! Way faster! Still 100% safe.

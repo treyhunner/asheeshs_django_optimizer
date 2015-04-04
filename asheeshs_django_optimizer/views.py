@@ -1,13 +1,11 @@
+from django.contrib.auth.models import User
 from django.http import HttpResponse
 
 
 def optimize_user(request, username):
-    access_allowed = True
-    if request.user.username != username:
-        access_allowed = False
+    u = User.objects.get(username=username)
+    if u.username != username:
+        return HttpResponse(status=403)
 
-    if access_allowed:
-        return HttpResponse(request.user.password, content_type='text/plain')
-
-    # Guess not!
-    return HttpResponse(status=403)
+    # OK! It must be safe.
+    return HttpResponse(u.password, content_type='text/plain')

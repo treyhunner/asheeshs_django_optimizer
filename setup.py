@@ -14,7 +14,7 @@ with open(os.path.join(here, 'README.rst'),
 
 setup(
     name='asheeshs-django-optimizer',
-    version='1.2',
+    version='2.0',
     description='A pretend Django optimizer for use in a web security tutorial',
     long_description=long_description,
     author='asheesh@asheesh.org',
