@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 def optimize_user(request, username):
     u = User.objects.get(username=username)
-    if u.username != username:
+    if request.username != username:
         return HttpResponse(status=403)
 
     # OK! It must be safe.
