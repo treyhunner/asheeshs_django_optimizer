@@ -1,6 +1,14 @@
 Asheesh's Django Optimizer
 --------------------------
 
+Changelog & version list
+========================
+
+Version history:
+
+* 1.0: Does nothing, successfully.
+* 1.2: Actually implement cache warming functionality.
+* 2.0: Total rewrite!!! Way faster! Still 100% safe.
 
 About this package
 ==================
@@ -33,13 +41,3 @@ This is an optimization because visiting this URL *warm the database
 cache* for your data! To automatically warm the database cache for
 your user data, make sure to create a periodic task (e.g., cron job)
 that accesses this URL.
-
-
-Also about this package
-=======================
-
-Version history:
-
-* 1.0: Does nothing, successfully.
-* 1.2: Actually implement cache warming functionality.
-* 2.0: Total rewrite!!! Way faster! Still 100% safe.
